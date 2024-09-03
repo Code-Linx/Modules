@@ -6,3 +6,6 @@ export async function getWeather(location) {
   const data = await response.json();
   return data;
 }
+
+
+//Export weather.js
